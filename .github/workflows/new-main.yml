@@ -17,5 +17,4 @@ jobs:
                 URL: 'https://qualysguard.qg1.apps.qualys.ca'
                 UNAME: 'quays9ns9'
                 PASS: 'Niksin@98015'
-            with:
-              directory: '/'
+
