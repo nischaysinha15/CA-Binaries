@@ -14,7 +14,7 @@ jobs:
             uses: QIntegration/github_action_qiac@main
             id: qiac
             env:
-                URL: 'https://qualysguard.qg1.apps.qualys.ca'
-                UNAME: 'quays9ns9'
-                PASS: 'Niksin@98015'
+                URL: ${{ secrets.URL }}
+                UNAME: ${{ secrets.USERNAME }}
+                PASS: ${{ secrets.PASSWORD }}
 
