@@ -18,4 +18,4 @@ jobs:
                 UNAME: 'quays9ns9'
                 PASS: 'Niksin@98015'
             with:
-              directory: 'path of directory to scan (optional)'
+              directory: '/'
